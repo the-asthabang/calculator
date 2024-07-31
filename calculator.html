@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css"> 
+
+</head>
+<body>
+    <h1>welcome to our calculator</h1>
+    <div class="container">
+        <input type="text" placeholder="enter a number" >  
+        <div class="buttons">
+            <button onclick="allclear_btn('c')"class="clr_del" >c</button>
+            <button onclick="delete_btn('del')"class="clr_del" >del</button>
+            <button onclick="number_btn('*')" class="operation_clr" >*</button>
+            <button onclick="number_btn('/')"class="operation_clr" >/</button>
+
+            <button onclick="number_btn('1')" >1</button>
+            <button onclick="number_btn('2')" >2</button>
+            <button onclick="number_btn('3')">3</button>
+            <button onclick="number_btn('+')"class="operation_clr">+</button>
+
+            <button onclick="number_btn('4')"  >4</button>
+            <button onclick="number_btn('5')"  >5</button>
+            <button onclick="number_btn('6')" >6</button>
+            <button onclick="number_btn('-')"class="operation_clr" >-</button>
+
+            <button onclick="number_btn('7')" >7</button>
+            <button onclick="number_btn('8')" >8</button>
+            <button onclick="number_btn('9')" >9</button>
+            <button onclick="number_btn('.')"class="operation_clr" >.</button>
+
+            <button onclick="number_btn('c')">0</button>
+            <button onclick="calc_btn('del')" class="clr_del  equal" >=</button>
+            
+
+
+
+        </div>
+        <script src="calculator.js"></script>
+    </div>
+
+
+
+    
+</body>
+</html>

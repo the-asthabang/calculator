@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 17vw;
+    height: 55vh;
+    background-color: darkblue;
+    border: 3px solid black;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:18px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    font-size: 20px;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    font-size: 27px;
+
+}
+.clr_del{
+    background-color: rgb(145, 250, 9);
+    color: rgb(19, 1, 1);
+}
+
+.clr_del:hover{
+    background-color: white;
+    color: black;
+}
+
+.operation_clr{
+    background-color: rgb(181, 6, 6);
+    color: black;
+
+}
+.operation_clr:hover{
+    background-color: black;
+    color: white;
+}
+.equal{
+    width: 11vw;
+    grid-column: span 3;
+    border-radius: 5px;
+}
+input{
+    width: 90%;
+    border-radius: 10px;
+    height: 9vh;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+}
+placeholder{
+    font-size: 30px;
+}
