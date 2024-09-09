@@ -1,1 +1,1 @@
-live --> https://the-asthabang.github.io/calculator/
+but this is not responsive :-\
